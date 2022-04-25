@@ -48,7 +48,7 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 
 body {
     background-color: rgb(14, 8, 1);

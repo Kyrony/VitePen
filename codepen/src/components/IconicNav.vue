@@ -35,7 +35,7 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 
 body {
 	width: 100%;

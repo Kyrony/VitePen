@@ -4,13 +4,22 @@
 
 import LittleGallery from './components/LittleGallery.vue'
 import IconicNav from './components/IconicNav.vue';
+import FitHero from './components/FitHero.vue';
+import FitTypes from './components/FitTypes.vue';
+import Birdy from './components/Birdy.vue';
 
 
 </script>
 
 <template>
-  <IconicNav></IconicNav>
+  <Birdy></Birdy>
 </template>
 
 <style>
+
+body {
+  margin: 0;
+}
+
+
 </style>
