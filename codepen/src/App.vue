@@ -7,12 +7,13 @@ import IconicNav from './components/IconicNav.vue';
 import FitHero from './components/FitHero.vue';
 import FitTypes from './components/FitTypes.vue';
 import Birdy from './components/Birdy.vue';
+import Bump from './components/Bump.vue';
 
 
 </script>
 
 <template>
-  <Birdy></Birdy>
+  <Bump></Bump>
 </template>
 
 <style>
