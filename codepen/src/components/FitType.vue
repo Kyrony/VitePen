@@ -1,20 +1,43 @@
 <script>
 
+export default {
+    props: ['title', 'description'],
+}
+
 </script>
 
 <template>
 
-    <div class="fit-card">
-        <img src="" alt="" class="fit-image">
-        <title> Title </title>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam quod tempora deserunt autem magni iste vero neque quisquam. Quibusdam quas accusamus sint eius earum vero libero pariatur enim corrupti?</p>
-    </div>
+    <article class="fit-card">
+        <div class="fit-description">
+            <h3> {{ title }} </h3>
+            <p> {{ description }}</p>
+        </div>
+    </article>
 
 </template>
 
 
-<style>
+<style scoped>
+.fit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    height: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
 
+.fit-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
 
 
 </style>
