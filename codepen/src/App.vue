@@ -5,15 +5,18 @@
 import LittleGallery from './components/LittleGallery.vue'
 import IconicNav from './components/IconicNav.vue';
 import FitHero from './components/FitHero.vue';
-import FitTypes from './components/FitTypes.vue';
+import FitTypes from './components/FitContainer.vue';
 import Birdy from './components/Birdy.vue';
 import Bump from './components/Bump.vue';
+import FitType from './components/FitType.vue';
+import FitContainer from './components/FitContainer.vue';
+import Shake from './components/Shake.vue';
 
 
 </script>
 
 <template>
-  <Bump></Bump>
+  <Shake />
 </template>
 
 <style>

@@ -81,7 +81,7 @@ export default {
 	</div>
 </template>
 
-<style>
+<style scoped>
 body {
 	height: 100vh;
 	margin: 0;
