@@ -76,7 +76,8 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
+
 body,
 html {
 	height: 100%;

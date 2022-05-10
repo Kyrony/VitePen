@@ -16,7 +16,10 @@ import Shake from './components/Shake.vue';
 </script>
 
 <template>
-  <Shake />
+  <div class="fit-app">
+    <FitHero />
+    <FitContainer />
+  </div>
 </template>
 
 <style>

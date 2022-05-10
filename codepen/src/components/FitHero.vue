@@ -8,7 +8,7 @@
         <nav class="nav-head">
             <div class="nav-logo">
                 <h2>
-                    Logo/Name/Design
+                    SZ Fit
                 </h2>
             </div>
             <div class="nav-item">
@@ -52,8 +52,10 @@ a {
 
 h2 {
     font-size: 3rem;
+    color: #f5f5f5;
     font-weight: bold;
     padding: 1rem 1.2rem;
+    border: 1px solid #000000;
     margin: 0;
 }
 
